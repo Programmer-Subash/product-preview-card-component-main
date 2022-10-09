@@ -1,0 +1,22 @@
+@media(max-width:375px) {
+    .boxes {
+        flex-direction: column;
+        height: 762px;
+        margin: 0 auto;
+        position: static;
+        transform: translate(0%, 0%);
+        width: 95%;
+    }
+
+    .des-image {
+        display: none;
+    }
+
+    .mob-image {
+        display: block;
+    }
+
+    .box-width {
+        width: 100%;
+    }
+}
